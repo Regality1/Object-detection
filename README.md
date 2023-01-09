@@ -1,37 +1,68 @@
-#Object Detection App
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This app is designed to detect objects in real-time using the camera on your device. It is built using TensorFlow.js and React.js, and is powered by the COCO-SSD model.
+## Available Scripts
 
-Getting Started
+In the project directory, you can run:
 
-To get started, you will need to clone this repository onto your local machine.
+### `yarn start`
 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-git clone https://github.com/Regality1/object-detection-app.git
-Next, navigate to the project directory and install the necessary dependencies.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
+### `yarn test`
 
-cd object-detection-app
-npm install
-To start the app, run the following command:
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `yarn build`
 
-npm start
-This will start the app in development mode and open a new browser window at http://localhost:3000.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Deployment
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-To deploy this app to a live server, you will need to build the production version of the app.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn eject`
 
-npm run build
-This will create a build directory with optimized production code. You can then use a tool like Surge or Netlify to deploy the app to a live server.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Credits
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-TensorFlow.js
-React.js
-COCO-SSD model
-License
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
